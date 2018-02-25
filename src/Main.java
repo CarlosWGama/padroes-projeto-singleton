@@ -11,7 +11,7 @@ public class Main {
 		
 		//** USUÁRIO TOCA NUMA TECLA DO PIANO **//
 		Piano piano = new Piano();
-		piano.teclaX();
+		piano.teclaX(); //Reproduz em 100%
 		
 	}
 
