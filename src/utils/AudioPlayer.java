@@ -3,7 +3,15 @@ package utils;
 public class AudioPlayer {
 
 	private int volume = 100;
+	public static AudioPlayer instance;
+	
+	private AudioPlayer() {}
 
+	public static AudioPlayer getInstance() {
+		if (instance == null) instance = new AudioPlayer();
+		return instance;
+	}
+	
 	public int getVolume() {
 		return volume;
 	}

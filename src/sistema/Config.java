@@ -7,7 +7,7 @@ public class Config {
 	private AudioPlayer player;
 	
 	public Config() {
-		player = new AudioPlayer();
+		player = AudioPlayer.getInstance();
 	}
 
 	public void configuraAudio(int novoVolume) {

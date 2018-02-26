@@ -7,7 +7,7 @@ public class Piano {
 	private AudioPlayer player;
 	
 	public Piano() {
-		player = new AudioPlayer();
+		player = AudioPlayer.getInstance();
 	}
 	
 	public void teclaX() {
